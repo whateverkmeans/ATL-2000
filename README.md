@@ -1,14 +1,32 @@
-# ATL-2000: Vintage MPC Web Sampler
+<div align="center">
+
+# ATL-2000
+
+### Vintage MPC Web Sampler
+**ALL THE LOVE (feat. Andre Troutman)**
+
+<br />
+
+[![License](https://img.shields.io/badge/License-MIT-black?style=for-the-badge)](LICENSE)
+[![React](https://img.shields.io/badge/React_18-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Web Audio API](https://img.shields.io/badge/Web_Audio_API-111215?style=for-the-badge&logo=w3c&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API)
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
+
+<br />
 
 An interactive, skeuomorphic web-based Vintage MIDI Production Center (MPC) sampler dedicated to the track **"ALL THE LOVE" (feat. Andre Troutman)** by **Ye**.
 
-The ATL-2000 replicates the tactile experience, aesthetic, and workflow of classic hardware samplers right in the browser. Users can arrange stems, layer loops, chop vocal riffs, and trigger one-shot drum hits in real-time using either tactile on-screen controls or keyboard shortcuts.
+</div>
 
 ---
 
 ## Overview
 
-The ATL-2000 is engineered around the 118 BPM arrangement of "ALL THE LOVE". It combines authentic vintage hardware design with low-latency modern web audio synthesis and sample playback.
+The ATL-2000 replicates the tactile experience, aesthetic, and workflow of classic hardware samplers right in the browser. Users can arrange stems, layer loops, chop vocal riffs, and trigger one-shot drum hits in real-time using either tactile on-screen controls or keyboard shortcuts.
+
+Engineered around the 118 BPM arrangement of "ALL THE LOVE", it combines authentic vintage hardware design with low-latency modern web audio synthesis and sample playback.
 
 The interface features a dark stealth chassis, a glowing red CRT dot-matrix LCD panel with an integrated live frequency spectrum analyzer, rotary gain and volume controls, and a dedicated 4x4 grid of responsive velocity-style rubber pads.
 
