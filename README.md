@@ -81,50 +81,6 @@ The application prioritizes loading high-fidelity master `.mp3` stems from `/sam
 
 ---
 
-## Getting Started
-
-### Prerequisites
-- Node.js (version 18 or higher recommended)
-- npm or pnpm
-
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/whateverkmeans/ATL-2000.git
-   cd ATL-2000
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Start the development server:
-   ```bash
-   npm run dev
-   ```
-
-4. Open `http://localhost:3000` in your browser.
-
-### Building for Production
-```bash
-npm run build
-```
-The optimized bundle will be generated in the `dist` directory.
-
----
-
-## Deployment to Vercel
-
-This project is pre-configured for zero-configuration deployment on Vercel via the included `vercel.json` file.
-
-1. Push your repository to GitHub.
-2. Go to Vercel and click **Add New Project**.
-3. Import your repository and click **Deploy**.
-4. Vercel will automatically detect the Vite configuration and deploy the application.
-
----
-
 ## Audio Credits & Copyright Notice
 
 All master recordings, song compositions, musical elements, and audio copyrights are solely and exclusively owned by **Ye (Kanye West)** and **Andre Troutman** as the original creators of **"ALL THE LOVE"**.
