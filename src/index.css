@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    font-family: 'Plus Jakarta Sans', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+
+  body {
+    background-color: #101114;
+    color: #e2e8f0;
+    font-family: 'Plus Jakarta Sans', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+}
+
+/* Hardware Skeuomorphic Realistic Accents */
+.pad-socket {
+  background: #111215;
+  box-shadow: inset 1px 1px 3px rgba(0,0,0,0.9), inset -1px -1px 2px rgba(255,255,255,0.04);
+}
+
+.pad-surface {
+  background: linear-gradient(180deg, #2a2e35 0%, #202328 60%, #1a1c21 100%);
+  box-shadow: 
+    0 4px 0 #101114, 
+    0 6px 10px rgba(0, 0, 0, 0.7),
+    inset 0 1px 1px rgba(255, 255, 255, 0.12),
+    inset 0 -1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.pad-surface:active,
+.pad-pressed {
+  transform: translateY(3px) scale(0.985);
+  box-shadow: 
+    0 1px 0 #101114, 
+    0 2px 4px rgba(0, 0, 0, 0.8),
+    inset 0 2px 4px rgba(0, 0, 0, 0.8);
+  background: linear-gradient(180deg, #1d2024 0%, #181a1e 100%);
+}
+
+.jog-wheel-grooves {
+  background: radial-gradient(circle at 50% 50%, #16181b 0%, #0d0e10 70%, #050607 100%);
+  box-shadow: 
+    0 8px 18px rgba(0, 0, 0, 0.8),
+    0 2px 4px rgba(0, 0, 0, 0.6),
+    inset 0 1px 2px rgba(255, 255, 255, 0.2),
+    inset 0 -2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.hardware-chassis-shadow {
+  box-shadow: 
+    0 30px 80px -10px rgba(0, 0, 0, 0.95),
+    0 10px 25px rgba(0, 0, 0, 0.8),
+    0 0 0 1px rgba(255, 255, 255, 0.07),
+    inset 0 1px 1px rgba(255, 255, 255, 0.15);
+}
+
+.hardware-button {
+  box-shadow: 
+    0 2px 0 #121316,
+    0 3px 5px rgba(0, 0, 0, 0.5),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+.hardware-button:active {
+  transform: translateY(1.5px);
+  box-shadow: 
+    0 0.5px 0 #121316,
+    inset 0 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+/* Subtle CRT Scanline overlay for retro LCD */
+.scanline-overlay {
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%, 
+    rgba(0, 0, 0, 0.35) 50%
+  );
+  background-size: 100% 3px;
+  pointer-events: none;
+}
+
+.lcd-grid-pattern {
+  background-image: radial-gradient(rgba(255, 51, 51, 0.18) 1px, transparent 0);
+  background-size: 4px 4px;
+}
