@@ -34,8 +34,6 @@ The interface features a dark stealth chassis, a glowing red CRT dot-matrix LCD 
 - **Build Tool:** Vite
 - **Styling & Design:** Tailwind CSS
 - **Typography:** Plus Jakarta Sans (Google Fonts)
-- **Audio Architecture:** Web Audio API (AudioContext, AnalyserNode, GainNode, AudioBufferSourceNode)
-- **Deployment Target:** Vercel (Configured with `vercel.json`)
 
 ---
 
