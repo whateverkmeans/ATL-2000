@@ -2,10 +2,8 @@
 
 # ATL-2000
 
-### Vintage MPC Web Sampler
 **ALL THE LOVE (feat. Andre Troutman)**
 
-<br />
 
 [![License](https://img.shields.io/badge/License-MIT-black?style=for-the-badge)](LICENSE)
 [![React](https://img.shields.io/badge/React_18-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
@@ -14,7 +12,6 @@
 [![Web Audio API](https://img.shields.io/badge/Web_Audio_API-111215?style=for-the-badge&logo=w3c&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API)
 [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
 
-<br />
 
 An interactive, skeuomorphic web-based Vintage MIDI Production Center (MPC) sampler dedicated to the track **"ALL THE LOVE" (feat. Andre Troutman)** by **Ye**.
 
